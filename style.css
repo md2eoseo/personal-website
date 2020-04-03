@@ -35,6 +35,20 @@
 .block {
   width: 50%;
   height: 50%;
+  opacity: 0;
+}
+
+#block1:hover {
+  opacity: 1;
+}
+#block2:hover {
+  opacity: 1;
+}
+#block3:hover {
+  opacity: 1;
+}
+#block4:hover {
+  opacity: 1;
 }
 
 #block1 {
