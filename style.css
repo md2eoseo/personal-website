@@ -36,6 +36,11 @@
   width: 50%;
   height: 50%;
   opacity: 0;
+  display: flex;
+}
+
+.block h1 {
+  border: 1px solid black;
 }
 
 #block1:hover {
@@ -53,15 +58,25 @@
 
 #block1 {
   background-color: #0fbcf9;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 #block2 {
   background-color: #00d8d6;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 #block3 {
   background-color: #34e7e4;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
 }
 #block4 {
   background-color: #4bcffa;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
 }
 
 #blocks::-webkit-scrollbar {
