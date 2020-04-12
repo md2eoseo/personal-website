@@ -42,10 +42,14 @@
 
 .block .content {
   display: none;
+  margin: 2vh 1vw;
 }
 
 .block .content h1 {
+  display: inline;
+  padding: 0.8vh 1vw;
   border: 1px solid black;
+  border-radius: 10px;
 }
 
 #block1 {
