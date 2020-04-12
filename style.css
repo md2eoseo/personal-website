@@ -22,11 +22,8 @@
   height: var(--center-width);
   border: 3px solid blueviolet;
   border-radius: 100px;
-  background-color: #fff;
-}
-
-#center:hover {
-  background-color: #000;
+  background-image: url("flower.jpg");
+  background-size: cover;
 }
 
 #blocks {
