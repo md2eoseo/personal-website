@@ -23,4 +23,34 @@ function start() {
       ele.classList.remove("onBlock1");
     });
   });
+  HTML.block2.addEventListener("mouseover", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.add("onBlock2");
+    });
+  });
+  HTML.block2.addEventListener("mouseout", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.remove("onBlock2");
+    });
+  });
+  HTML.block3.addEventListener("mouseover", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.add("onBlock3");
+    });
+  });
+  HTML.block3.addEventListener("mouseout", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.remove("onBlock3");
+    });
+  });
+  HTML.block4.addEventListener("mouseover", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.add("onBlock4");
+    });
+  });
+  HTML.block4.addEventListener("mouseout", function () {
+    HTML.block.forEach((ele) => {
+      ele.classList.remove("onBlock4");
+    });
+  });
 }
