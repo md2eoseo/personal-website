@@ -63,11 +63,22 @@ function start() {
 function animation_showing() {
   gsap.fromTo(
     ".content",
-    { scale: 0, opacity: 0 },
+    { scale: 0.6, opacity: 0 },
     {
-      duration: 1,
+      duration: 0.5,
       scale: 1,
       opacity: 1,
     }
   );
+}
+
+const animation_rotating = gsap.to("#center", {
+  duration: 10,
+  rotation: 360,
+  ease: "none",
+  onComplete: restart_animation_rotating,
+});
+
+function restart_animation_rotating() {
+  animation_rotating.restart();
 }
