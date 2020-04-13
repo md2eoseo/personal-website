@@ -14,6 +14,13 @@ function start() {
   HTML.block3 = document.querySelector("#block3");
   HTML.block4 = document.querySelector("#block4");
 
+  HTML.center.addEventListener("click", function () {
+    const a = document.createElement("a");
+    a.href = "https://www.instagram.com/2eoseo/";
+    a.target = "_blank";
+    document.body.appendChild(a);
+    a.click();
+  });
   HTML.block1.addEventListener("mouseenter", function () {
     HTML.block.forEach((ele) => {
       ele.classList.add("onBlock1");
