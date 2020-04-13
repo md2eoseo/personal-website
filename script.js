@@ -1,4 +1,5 @@
 "use strict";
+import { gsap } from "gsap";
 window.addEventListener("DOMContentLoaded", start);
 
 const HTML = {};
