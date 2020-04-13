@@ -22,7 +22,7 @@
   height: var(--center-width);
   border: 3px solid blueviolet;
   border-radius: 100px;
-  background-image: url("flower.jpg");
+  background-image: url("img/flower.jpg");
   background-size: cover;
 }
 
@@ -38,6 +38,7 @@
   width: 50%;
   height: 50%;
   display: flex;
+  overflow: hidden;
 }
 
 .block .content {
@@ -60,8 +61,23 @@
 #block1.onBlock1 .forBlock1 {
   display: block;
 }
+#block1.onBlock1 .forBlock1 p {
+  margin: 3vh 6vw;
+  font-size: 1.2vw;
+}
 #block1.onBlock2 .forBlock2 {
   display: block;
+}
+#block1.onBlock2 .forBlock2 img {
+  max-width: 45vw;
+  max-height: 15vh;
+  border: 1vh solid burlywood;
+  border-radius: 10px;
+}
+#block1.onBlock2 .forBlock2 p {
+  margin-top: 3vh;
+  margin-left: 2vw;
+  font-size: 1.2vw;
 }
 #block1.onBlock3 .forBlock3 {
   display: block;
@@ -79,8 +95,29 @@
 #block2.onBlock1 .forBlock1 {
   display: block;
 }
+#block2.onBlock1 .forBlock1 img {
+  max-width: 30vw;
+  max-height: 42vh;
+  border: 1vh solid burlywood;
+  border-radius: 10px;
+}
 #block2.onBlock2 .forBlock2 {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#block2.onBlock2 .forBlock2 p {
+  margin-right: 8vw;
+  font-size: 1.2vw;
+}
+#block2.onBlock2 .forBlock2 ul {
+  margin-right: 10vw;
+  font-size: 1vw;
+}
+#github {
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
 }
 #block2.onBlock3 .forBlock3 {
   display: block;
@@ -97,8 +134,20 @@
 #block3.onBlock1 .forBlock1 {
   display: block;
 }
+#block3.onBlock1 .forBlock1 img {
+  max-width: 13vw;
+  max-height: 42vh;
+  border: 1vh solid burlywood;
+  border-radius: 10px;
+}
 #block3.onBlock2 .forBlock2 {
   display: block;
+}
+#block3.onBlock2 .forBlock2 img {
+  max-width: 30vw;
+  max-height: 42vh;
+  margin: 0 1vw;
+  border-radius: 10px;
 }
 #block3.onBlock3 .forBlock3 {
   display: block;
@@ -116,8 +165,20 @@
 #block4.onBlock1 .forBlock1 {
   display: block;
 }
+#block4.onBlock1 .forBlock1 img {
+  max-width: 40vw;
+  max-height: 43vh;
+  border: 1vh solid burlywood;
+  border-radius: 10px;
+}
 #block4.onBlock2 .forBlock2 {
   display: block;
+}
+#block4.onBlock2 .forBlock2 img {
+  max-width: 20vw;
+  max-height: 43vh;
+  margin: 0 1vw;
+  border-radius: 10px;
 }
 #block4.onBlock3 .forBlock3 {
   display: block;
