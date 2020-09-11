@@ -1,10 +1,8 @@
 # (still working on) personal-website
 
-My personal website
-
--To see the website
---Clone the repository
---npm install on cli
---npm install parcel on cli
---parcel index.html on cli
---check the localhost:1234
+## To see the website
+1.Clone the repository
+2.npm install on cli
+3.npm install parcel on cli
+4.parcel index.html on cli
+5.check the localhost:1234
